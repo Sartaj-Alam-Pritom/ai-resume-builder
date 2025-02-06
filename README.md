@@ -60,15 +60,16 @@ AI Resume Builder is a web application designed to help users optimize their res
    cp .env.example .env
 
 ##Update the .env file with your database credentials and OpenAI API key:
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_user
-DB_PASSWORD=your_database_password
-OPENAI_API_KEY=your_openai_api_key
+ ```bash
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_database_user
+   DB_PASSWORD=your_database_password
+   OPENAI_API_KEY=your_openai_api_key
 
-MIT License
+##MIT License
 
 Copyright (c) 2023 Sartaj Alam Pritom
 
